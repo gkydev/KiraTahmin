@@ -15,5 +15,4 @@ def predict(predict_data):
     prec = prec[0][0]
     if prec < 0:
         prec = prec*-1
-    print(prec)
     return prec
